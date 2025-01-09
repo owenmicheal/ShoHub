@@ -1,6 +1,6 @@
-import { headerLogo } from '../assets/images/index.js'
-import { hamburger } from '../assets/icons'
-import { navLinks } from '../Constants/index.js'
+import { najjilogo } from '../assets/images/index.js'
+import { hamburger } from '../assets/icons/index.js'
+import { navLinks } from '../constants/index.js'
 
 const Nav = () => {
   return (
@@ -8,10 +8,10 @@ const Nav = () => {
         <nav className='flex justify-between items-center max-container'>
             <a href="/">
             <img
-                src={headerLogo}
+                src={najjilogo}
                 alt="LOGO"
-                width={130}
-                height={29} />
+                width={150}
+                height={35} />
             </a>
             <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden'>
                 {navLinks.map((item) => (
@@ -37,4 +37,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Nav;
