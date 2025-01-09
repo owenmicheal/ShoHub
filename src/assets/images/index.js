@@ -2,11 +2,11 @@ import bigShoe1 from './big-shoe1.png'
 import bigShoe2 from './big-shoe2.png'
 import bigShoe3 from './big-shoe3.png'
 import najjilogo from './najji-logo.png'
+import footerLogo from './footer.png'
 
-import customer1 from './customer1.jpeg'
-import customer2 from './customer2.svg'
+import customer1 from './customer1.jpg'
+import customer2 from './customer2.jpg'
 
-import footerLogo from './footer-logo.svg'
 import headerLogo from './header-logo.svg'
 
 

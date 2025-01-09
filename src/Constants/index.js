@@ -73,13 +73,13 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Najjemba Oprah',
         rating: 4.5,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'Nansubuga Faridah',
         rating: 4.5,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
     }
@@ -101,7 +101,7 @@ export const footerLinks = [
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
+            { name: "About us", link: "#about-us" },
             { name: "FAQs", link: "/" },
             { name: "How it works", link: "/" },
             { name: "Privacy policy", link: "/" },
@@ -111,7 +111,7 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@shoehub.com", link: "mailto:customer@shoehub.com" },
+            { name: "customer@najjishoes.com", link: "mailto:customer@shoehub.com" },
             { name: "+256701300204", link: "tel:+256701300204" },
         ],
     },
